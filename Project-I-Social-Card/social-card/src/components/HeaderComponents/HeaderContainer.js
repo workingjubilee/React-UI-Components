@@ -6,13 +6,13 @@ import ImageThumbnail from './ImageThumbnail';
 
 function HeaderContainer() {
   return (
-    <div className="header">
+    <header>
       <ImageThumbnail />
       <div className="headerText">
         <HeaderTitle />
         <HeaderContent />
       </div>
-    </div>
+    </header>
   );
 }
 
