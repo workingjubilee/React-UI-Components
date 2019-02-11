@@ -2,3 +2,31 @@
   Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+* {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.fadeText {
+  color: grey;
+}
+
+article {
+  width: 600px;
+}
+
+img {
+  object-fit: contain;
+}

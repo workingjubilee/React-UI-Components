@@ -4,7 +4,7 @@ import './Header.css';
 // - Create a <HeaderTitle /> component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
 function HeaderTitle() {
   return (
-    <div className="headerTitle"><h1>LambdaSchool</h1> <h2>@Lambda School * 11 feb</h2></div>
+    <div className="headerTitle"><h2>LambdaSchool</h2> <p className="fadeText">@Lambda School * 11 feb</p></div>
   );
 }
 // 1s = 1000 ms
