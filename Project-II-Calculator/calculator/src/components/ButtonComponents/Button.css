@@ -1,0 +1,19 @@
+/* // <button className={props.buttonStyle}>{props.text}</button> */
+
+button {
+  border-color: black;
+}
+
+.red {
+  background-color: darkred;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  font-weight: lighter;
+}

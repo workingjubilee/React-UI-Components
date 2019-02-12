@@ -1,9 +1,15 @@
 import React from 'react';
+import './reset.css';
 import './App.css';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
+// import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div>
+      <ActionButton buttonStyle="white text" text="clear" />
+      <ActionButton buttonStyle="white" text="0" />
 
     </div>
   );
@@ -18,12 +24,7 @@ const App = () => {
 // <NumberButton />
 // <NumberButton />
 // <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
+// ... etc (9 buttons)...
 // /div?
 // <ActionButton />
 // /div?
