@@ -1,4 +1,5 @@
 import React from 'react';
+import './reset.css';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
@@ -25,8 +26,10 @@ const App = () => {
 
       <article className="socialCard">
         <HeaderContainer />
-        <CardContainer />
-        <Footer />
+        <div className="indent">
+          <CardContainer />
+          <Footer />
+        </div>
       </article>
 
     </div>

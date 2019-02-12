@@ -3,30 +3,49 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+
+
 * {
   max-width: 100%;
+  max-height: 100%;
 }
 
-a {
-  text-decoration: none;
+body {
+ 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  /* color: darkslategrey; */
 }
 
-a:link {
-  color: inherit;
-}
-
-a:visited {
-  color: inherit;
-}
+/* p {
+  font-weight: lighter;
+} */
 
 .fadeText {
   color: grey;
 }
 
-article {
-  width: 600px;
+.socialCard {
+  padding: 2.5% 1.8% 2.5% 0%;
+  width: 590px;
+  height: 514px;
+  border: 1px solid red;
+}
+
+.indent {
+  padding-left: 11.5%;
 }
 
 img {
   object-fit: contain;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.0rem;
+  padding-right: 1%;
+}
+h3 {
+  font-size: 1.0rem;
+  font-weight: bolder;
 }
