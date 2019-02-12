@@ -3,13 +3,14 @@ import './reset.css';
 import './App.css';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
-// import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div>
+      <CalculatorDisplay text="0" />
       <ActionButton buttonStyle="white text" text="clear" />
-      <ActionButton buttonStyle="white" text="0" />
+      <NumberButton buttonStyle="white" text="0" />
 
     </div>
   );
