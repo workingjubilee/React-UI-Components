@@ -12,7 +12,7 @@
 
 body {
  	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
   font-size: 0.9rem;
   /* color: darkslategrey; */
 }
@@ -26,14 +26,24 @@ body {
 }
 
 .socialCard {
-  padding: 2.5% 1.8% 2.5% 0%;
+  padding: 1.5% 1% 1.5% 0%;
   width: 590px;
   height: 514px;
-  border: 1px solid red;
+  border: 1px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content */
+  /* align-items: stretch; */
+  /* align-content: stretch; */
 }
 
 .indent {
-  padding-left: 11.5%;
+  padding-left: 11%;
+  max-height: 100%;
+  /* max-width: 100% */
 }
 
 img {
