@@ -28,9 +28,9 @@ const App = () => {
           </div>
 
           <div className="operations">
-            <NumberButton buttonStyle="red" text="+" />
-            <NumberButton buttonStyle="red" text="-" />
-            <NumberButton buttonStyle="red" text="÷"/>
+            <NumberButton buttonStyle="red" text="÷" />
+            <NumberButton buttonStyle="red" text="X" />
+            <NumberButton buttonStyle="red" text="-"/>
             <NumberButton buttonStyle="red" text="+" />
             <NumberButton buttonStyle="red" text="="/>
           </div>
