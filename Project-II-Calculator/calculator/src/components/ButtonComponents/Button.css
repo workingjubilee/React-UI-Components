@@ -2,6 +2,9 @@
 
 button {
   border-color: black;
+  /* width: 24%; */
+  border: 1px solid grey;
+  flex-grow: 1;
 }
 
 .red {
@@ -15,5 +18,13 @@ button {
 }
 
 .text {
-  font-weight: lighter;
+  font-weight: 300;
+}
+
+.wide {
+  width: 100%;
+}
+
+.byThree {
+  width: calc(100%/3);
 }

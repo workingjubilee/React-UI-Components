@@ -7,12 +7,36 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   return (
-    <div>
+    <section className="calculator">
       <CalculatorDisplay text="0" />
-      <ActionButton buttonStyle="white text" text="clear" />
-      <NumberButton buttonStyle="white" text="0" />
+        <div className="buttonsbox">
 
-    </div>
+          <div className="numbers">
+            <ActionButton buttonStyle="wide white text" text="clear" />
+
+            <NumberButton buttonStyle="white byThree" text="7" />
+            <NumberButton buttonStyle="white byThree" text="8" />
+            <NumberButton buttonStyle="white byThree" text="9" />
+            <NumberButton buttonStyle="white byThree" text="4" />
+            <NumberButton buttonStyle="white byThree" text="5" />
+            <NumberButton buttonStyle="white byThree" text="6" />
+            <NumberButton buttonStyle="white byThree" text="1" />
+            <NumberButton buttonStyle="white byThree" text="2" />
+            <NumberButton buttonStyle="white byThree" text="3" />
+
+            <ActionButton buttonStyle="wide white" text="0" />
+          </div>
+
+          <div className="operations">
+            <NumberButton buttonStyle="red" text="+" />
+            <NumberButton buttonStyle="red" text="-" />
+            <NumberButton buttonStyle="red" text="÷"/>
+            <NumberButton buttonStyle="red" text="+" />
+            <NumberButton buttonStyle="red" text="="/>
+          </div>
+
+      </div>
+    </section>
   );
 };
 
@@ -31,11 +55,7 @@ const App = () => {
 // /div?
 
 // side buttons, div, small width
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
-// <NumberButton />
+
 // /div?
 
 // /div?
