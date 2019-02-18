@@ -1,0 +1,30 @@
+/* // <button className={props.buttonStyle}>{props.text}</button> */
+
+button {
+  border-color: black;
+  /* width: 24%; */
+  border: 1px solid grey;
+  flex-grow: 1;
+}
+
+.red {
+  background-color: darkred;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.wide {
+  width: 100%;
+}
+
+.byThree {
+  width: calc(100%/3);
+}
