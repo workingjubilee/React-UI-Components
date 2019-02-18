@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+
+.headerTitle {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* max-height:  */
+  width: 100%;
+  align-items: baseline;
+  padding-bottom: 1%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  /* padding-bottom: 2%; */
+  /* height: 100px; */
+}
+
+.lambdaCrest {
+  width: 8.5%;
+  /* width: 50px; */
+  padding: 0% 1.5%;
+
+}

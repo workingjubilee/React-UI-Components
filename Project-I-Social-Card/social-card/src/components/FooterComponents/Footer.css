@@ -1,0 +1,15 @@
+
+i {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: flex-end;
+  width: 260px;
+  /* height: 8%; */
+  font-size: 1.0rem;
+  /* font-style: italic; */
+}
